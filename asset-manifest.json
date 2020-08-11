@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/Navigus-presence-service/static/js/main.e7dea07d.chunk.js",
-    "main.js.map": "/Navigus-presence-service/static/js/main.e7dea07d.chunk.js.map",
+    "main.js": "/Navigus-presence-service/static/js/main.52612207.chunk.js",
+    "main.js.map": "/Navigus-presence-service/static/js/main.52612207.chunk.js.map",
     "runtime-main.js": "/Navigus-presence-service/static/js/runtime-main.42442270.js",
     "runtime-main.js.map": "/Navigus-presence-service/static/js/runtime-main.42442270.js.map",
-    "static/js/2.f898232a.chunk.js": "/Navigus-presence-service/static/js/2.f898232a.chunk.js",
-    "static/js/2.f898232a.chunk.js.map": "/Navigus-presence-service/static/js/2.f898232a.chunk.js.map",
+    "static/js/2.2c67fdb9.chunk.js": "/Navigus-presence-service/static/js/2.2c67fdb9.chunk.js",
+    "static/js/2.2c67fdb9.chunk.js.map": "/Navigus-presence-service/static/js/2.2c67fdb9.chunk.js.map",
     "index.html": "/Navigus-presence-service/index.html",
-    "precache-manifest.98f291fc71b663093ef8f2aec4041807.js": "/Navigus-presence-service/precache-manifest.98f291fc71b663093ef8f2aec4041807.js",
+    "precache-manifest.cf173d7b06e0492a77a0891b038b8a31.js": "/Navigus-presence-service/precache-manifest.cf173d7b06e0492a77a0891b038b8a31.js",
     "service-worker.js": "/Navigus-presence-service/service-worker.js",
-    "static/js/2.f898232a.chunk.js.LICENSE.txt": "/Navigus-presence-service/static/js/2.f898232a.chunk.js.LICENSE.txt",
+    "static/js/2.2c67fdb9.chunk.js.LICENSE.txt": "/Navigus-presence-service/static/js/2.2c67fdb9.chunk.js.LICENSE.txt",
     "static/media/rightnavigus.jpg": "/Navigus-presence-service/static/media/rightnavigus.b38f3d96.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.42442270.js",
-    "static/js/2.f898232a.chunk.js",
-    "static/js/main.e7dea07d.chunk.js"
+    "static/js/2.2c67fdb9.chunk.js",
+    "static/js/main.52612207.chunk.js"
   ]
 }
