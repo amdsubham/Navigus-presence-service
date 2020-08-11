@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Navigus-presence-service/precache-manifest.cf173d7b06e0492a77a0891b038b8a31.js"
+  "/Navigus-presence-service/precache-manifest.98f291fc71b663093ef8f2aec4041807.js"
 );
 
 self.addEventListener('message', (event) => {
