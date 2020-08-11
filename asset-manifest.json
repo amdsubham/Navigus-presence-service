@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Navigus-presence-service/static/js/main.d250b904.chunk.js",
+    "main.js.map": "/Navigus-presence-service/static/js/main.d250b904.chunk.js.map",
+    "runtime-main.js": "/Navigus-presence-service/static/js/runtime-main.42442270.js",
+    "runtime-main.js.map": "/Navigus-presence-service/static/js/runtime-main.42442270.js.map",
+    "static/js/2.7cd66521.chunk.js": "/Navigus-presence-service/static/js/2.7cd66521.chunk.js",
+    "static/js/2.7cd66521.chunk.js.map": "/Navigus-presence-service/static/js/2.7cd66521.chunk.js.map",
+    "index.html": "/Navigus-presence-service/index.html",
+    "precache-manifest.078837d8616aa28154d696ed2dab591e.js": "/Navigus-presence-service/precache-manifest.078837d8616aa28154d696ed2dab591e.js",
+    "service-worker.js": "/Navigus-presence-service/service-worker.js",
+    "static/js/2.7cd66521.chunk.js.LICENSE.txt": "/Navigus-presence-service/static/js/2.7cd66521.chunk.js.LICENSE.txt",
+    "static/media/rightnavigus.jpg": "/Navigus-presence-service/static/media/rightnavigus.b38f3d96.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42442270.js",
+    "static/js/2.7cd66521.chunk.js",
+    "static/js/main.d250b904.chunk.js"
+  ]
+}
