@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
+      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
 
         <Switch>
           <Route path="/create-account" component={CreateAccount} />
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" component={HomeLogin} />
           <Route path="/home" component={HomePage} />
         </Switch>
+        </BrowserRouter>
     </Router>
   );
 }
