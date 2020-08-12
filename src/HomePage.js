@@ -3,6 +3,7 @@ import Header from "./visual components/Header/Header";
 import Grid from "@material-ui/core/Grid";
 import RecipeReviewCard from "./visual components/Card/card";
 
+
 class HomePage extends Component {
   constructor(props) {
     super(props);
