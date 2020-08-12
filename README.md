@@ -8,7 +8,9 @@ This application is made using React.js(ES6) Framework and firebase as a databas
 Each pages include some features and validation process as described.
 
 Create Account page:
+
 Input Fields- 
+
 FullName - (Length Should not be null ).
 Email- (email should be in email format).
 Password- (password must contain one uppercase, lowercase, symbol and number).
