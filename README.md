@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This application is made using React.js(ES6) Framework and firebase as a database.This application is deployed in heroku server using GitHub as CI/CD pipleline. This application is fully responsive and consists of 3 main pages, 
 
-In the project directory, you can run:
+Create-Account 
+Login (Authentication module)
+HomePage
 
-### `npm start`
+Each pages include some features and validation process as described.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Create Account page:
+Input Fields- 
+FullName - (Length Should not be null ).
+Email- (email should be in email format).
+Password- (password must contain one uppercase, lowercase, symbol and number).
+Confirm Password- (confirm password should be same as Password).
+Choose Avatar- (choose a avatar of your choice.)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+When user will submit, an account will be registered. User can login to his account to using the following login process.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Login page:
+Input Fields- 
 
-### `npm run build`
+Email- (email should be in email format).
+Password- (password must contain one uppercase, lowercase, symbol and number).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If the credentials are wrong then it will move to showing an error message, After successful login the user will be moved to User home Page
+User will be able to see the documents.  
+User timestamp will be taken and he will be added as pastViewer to the document.
+User has option to check who is presently online by clicking present viewer button.
+User can check the past viewers to the document as well by clicking past viewer button.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+There is a avatar section when user can check the presently online users avatars.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Logout:
 
-### `npm run eject`
+When user clicks on the logout button. The system will remove user from present online viewers section and will redirect to login page.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
