@@ -1,5 +1,5 @@
 
-This application is made using React.js(ES6) Framework and firebase as a database. This application is deployed in heroku server using GitHub as CI/CD pipleline. This application is fully responsive and consists of 3 main pages, 
+This application is made using React.js(ES6) Framework and firebase as a database. This application is deployed in heroku server. This application is fully responsive and consists of 3 main pages, 
 
 - Create-Account 
 - Login (Authentication module)
